@@ -12,7 +12,7 @@ class CashRegister
 
     i=0;
     while i<quantity do
-      items << title
+      @items << title
     end
     @total += price*quantity
   end
@@ -31,7 +31,7 @@ class CashRegister
   def items
 
   @items
-  
+
   end
 
 
