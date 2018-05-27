@@ -8,7 +8,7 @@ def initialize(discount = nil)
   @discount = discount
 end
 
-def add_item(title, price)
+def add_item(title, price, quantity = nil)
 
   @total += price
 end
